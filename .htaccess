@@ -1,0 +1,5 @@
+RewriteEngine on
+
+# 重写规则
+RewriteRule ^restful/class$   mywork/restful/index.php?class=all [nc,qsa]
+RewriteRule ^restful/class/(\d+)$  mywork/restful/index.php?class=$1 [nc,qsa]
